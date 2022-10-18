@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>LearnCodeOnline</title>
-    <link rel="icon" href="lco.png" sizes="16x16" type="image/png" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="gameContainer">
-      <div class="container">
-        <h1 class="text-center text-white display-4">How is your memory</h1>
-      </div>
-      <div class="card" data-image="evilface">
-        <img src="./cards/evilface.png" class="front flip" alt="evilface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="evilface">
-        <img src="./cards/evilface.png" class="front" alt="evilface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="angryface">
-        <img src="./cards/angryface.png" class="front" alt="angryface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="angryface">
-        <img src="./cards/angryface.png" class="front" alt="angryface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="coolface">
-        <img src="./cards/coolface.png" class="front" alt="coolface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="coolface">
-        <img src="./cards/coolface.png" class="front" alt="coolface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="feverface">
-        <img src="./cards/feverface.png" class="front" alt="feverface" />
-        <img src="./cards/lco.png" class="back" alt="feverface" />
-      </div>
-      <div class="card" data-image="feverface">
-        <img src="./cards/feverface.png" class="front" alt="feverface" />
-        <img src="./cards/lco.png" class="back" alt="feverface" />
-      </div>
-      <div class="card" data-image="vomitface">
-        <img src="./cards/vomitface.png" class="front" alt="vomitface" />
-        <img src="./cards/lco.png" class="back" alt="vomitface" />
-      </div>
-      <div class="card" data-image="vomitface">
-        <img src="./cards/vomitface.png" class="front" alt="vomitface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="sneezeface">
-        <img src="./cards/sneezeface.png" class="front" alt="sneezeface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="sneezeface">
-        <img src="./cards/sneezeface.png" class="front" alt="sneezeface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="mindblownface">
-        <img src="./cards/mindblownface.png" class="front" alt="mindblownface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="mindblownface">
-        <img src="./cards/mindblownface.png" class="front" alt="mindblownface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="thinkingface">
-        <img src="./cards/thinkingface.png" class="front" alt="thinkingface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
-      <div class="card" data-image="thinkingface">
-        <img src="./cards/thinkingface.png" class="front" alt="thinkingface" />
-        <img src="./cards/lco.png" class="back" alt="lco" />
-      </div>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta name='description' content='Memory game.'>
+  <meta name='keywords' content='Memory, game, card'>
+  <meta name='author' content='Tigran Kheranyan'>
+  <title>LearnCodeOnline</title>
+  <link rel='icon' href='lco.png' sizes='16x16' type='image/png' />
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' />
+  <link rel='stylesheet' href='style.css' />
+</head>
+
+<body>
+  <div class='gameContainer'>
+    <div class='container'>
     </div>
-    <script src="index.js"></script>
-  </body>
+    <div class='card' data-image='evilface'>
+      <img src='./cards/evilface.png' class='front flip' alt='evilface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='evilface'>
+      <img src='./cards/evilface.png' class='front' alt='evilface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='angryface'>
+      <img src='./cards/angryface.png' class='front' alt='angryface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='angryface'>
+      <img src='./cards/angryface.png' class='front' alt='angryface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='coolface'>
+      <img src='./cards/coolface.png' class='front' alt='coolface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='coolface'>
+      <img src='./cards/coolface.png' class='front' alt='coolface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='feverface'>
+      <img src='./cards/feverface.png' class='front' alt='feverface' />
+      <img src='./cards/lco.png' class='back' alt='feverface' />
+    </div>
+    <div class='card' data-image='feverface'>
+      <img src='./cards/feverface.png' class='front' alt='feverface' />
+      <img src='./cards/lco.png' class='back' alt='feverface' />
+    </div>
+    <div class='card' data-image='vomitface'>
+      <img src='./cards/vomitface.png' class='front' alt='vomitface' />
+      <img src='./cards/lco.png' class='back' alt='vomitface' />
+    </div>
+    <div class='card' data-image='vomitface'>
+      <img src='./cards/vomitface.png' class='front' alt='vomitface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='sneezeface'>
+      <img src='./cards/sneezeface.png' class='front' alt='sneezeface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='sneezeface'>
+      <img src='./cards/sneezeface.png' class='front' alt='sneezeface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='mindblownface'>
+      <img src='./cards/mindblownface.png' class='front' alt='mindblownface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='mindblownface'>
+      <img src='./cards/mindblownface.png' class='front' alt='mindblownface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='thinkingface'>
+      <img src='./cards/thinkingface.png' class='front' alt='thinkingface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+    <div class='card' data-image='thinkingface'>
+      <img src='./cards/thinkingface.png' class='front' alt='thinkingface' />
+      <img src='./cards/lco.png' class='back' alt='lco' />
+    </div>
+  </div>
+  <script src='script.js'></script>
+</body>
+
 </html>
